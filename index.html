@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PORTFOLIO</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOOTSRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        padding-top: 10px;
+        margin: 0 21px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.3rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+
+      .firstSection > div {
+        width: 35%;
+      }
+
+      .leftSection {
+        font-size: 2.4rem;
+      }
+      .leftSection .buttons{
+        padding: 50px 0;
+      }
+      .leftSection .btn{
+        cursor: pointer;
+        padding: 12px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 0px;
+        font-size: 20px;
+        background: #1e2167;
+      }
+      .leftSection .btn:hover{
+        background: #1b1e81;
+        color: white;
+      }
+
+      .purple {
+        color: purple;
+      }
+      /* .rightSection{
+
+      } */
+
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: purple;
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: #0e0e1e;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="left"><h2>Bilal's Portfolio</h2></div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is
+          <span class="purple"> Bilal</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./IMAGES/bg.png" width="100%" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./IMAGES/htmllogo.png"
+              alt=""
+              sizes=""
+              srcset=""
+            />
+            <div class="vertical-title">HTML Developer 2022-so on</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repellat, nemo quaerat, esse temporibus, facere natus vitae eos
+              rerum modi mollitia quos fuga nam maxime suscipit itaque eligendi
+              quis voluptatum maiores.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./IMAGES/csslogo.png"
+              alt=""
+              sizes=""
+              srcset=""
+            />
+            <div class="vertical-title">CSS Developer 2022-so on</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repellat, nemo quaerat, esse temporibus, facere natus vitae eos
+              rerum modi mollitia quos fuga nam maxime suscipit itaque eligendi
+              quis voluptatum maiores.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./IMAGES/jslogo.webp"
+              alt=""
+              sizes=""
+              srcset=""
+            />
+            <div class="vertical-title">JS Developer 2022-so on</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repellat, nemo quaerat, esse temporibus, facere natus vitae eos
+              rerum modi mollitia quos fuga nam maxime suscipit itaque eligendi
+              quis voluptatum maiores.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="./IMAGES/reactLogo.png"
+              alt=""
+              sizes="36px"
+              srcset=""
+            />
+            <div class="vertical-title">REACT.JS Developer 2022-so on</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repellat, nemo quaerat, esse temporibus, facere natus vitae eos
+              rerum modi mollitia quos fuga nam maxime suscipit itaque eligendi
+              quis voluptatum maiores.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h2>Bilal's Developer Portfolio</h2>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+       Copyrights &#169; www.bilalsportfolio.com| All rights reserved
+      </div>
+    </footer>
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="app.js"></script>
+    <!-- BOOTSRAP JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- TYPE JAVASCRIPT LINK -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Mobile App Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
